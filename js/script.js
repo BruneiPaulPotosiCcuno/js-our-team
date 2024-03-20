@@ -12,42 +12,40 @@ Stampare le stesse informazioni su DOM sottoforma di stringhe*/
 const group = [
     // ? Creo objects per ogni section
     {
-        name: "",
-        rol:"",
-        photo:"",
+        name: 'Wayne Barnett',
+        rol:'Founder & CEO',
+        photo:'wayne-barnett-founder-ceo.jpg',
     },
         // ? Creo objects per ogni section
     {
-        name: "",
-        rol:"",
-        photo:"",
+        name: 'Angela Caroll',
+        rol: 'Chief Editor',
+        photo: 'angela-caroll-chief-editor.jpg',
     },
         // ? Creo objects per ogni section
     {
-        name: "",
-        rol:"",
-        photo:"",
+        name: 'Walter Gordon',
+        rol: 'Office Manager',
+        photo: 'walter-gordon-office-manager.jp',
     },
         // ? Creo objects per ogni section
     {
-        name: "",
-        rol:"",
-        photo:"",
+        name: 'Angela Lopez',
+        rol: 'Social Media Manager',
+        photo: 'angela-lopez-social-media-manager.jpg',
     },
         // ? Creo objects per ogni section
     {
-        name: "",
-        rol:"",
-        photo:"",
+        name: 'Scott Estrada',
+        rol: 'Developer',
+        photo: 'scott-estrada-developer.jpg',
     },
         // ? Creo objects per ogni section
     {
-        name: "",
-        rol:"",
-        photo:"",
+        name: 'Barbara Ramos',
+        rol: 'Graphic Designer',
+        photo: 'barbara-ramos-graphic-designer.jpg',
     },
-    
-
 ];
 
 console.log(group);
