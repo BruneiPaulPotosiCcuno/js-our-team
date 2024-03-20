@@ -62,5 +62,5 @@ console.log(group);
 //creo una for
 for (let i = 0; i < group.length; i++){
     const user = group[i];
-    
+    const userElement = document.createElement('div')
 }
