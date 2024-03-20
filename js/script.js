@@ -7,6 +7,10 @@ Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e 
 MILESTONE 2:
 Stampare le stesse informazioni su DOM sottoforma di stringhe*/
 
+
+
+
+// MILESTONE 1:
 // Creare l’array di oggetti con le informazioni fornite.
 
 const group = [
@@ -48,4 +52,15 @@ const group = [
     },
 ];
 
+// !Mostra array
 console.log(group);
+
+
+// MILESTONE 2:
+//STAMPARE LA INFORMAZIONE
+
+//creo una for
+for (let i = 0; i < group.length; i++){
+    const user = group[i];
+    
+}
