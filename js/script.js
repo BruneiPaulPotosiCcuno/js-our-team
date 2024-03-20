@@ -58,15 +58,18 @@ console.log(group);
 
 // MILESTONE 2:
 //STAMPARE LA INFORMAZIONE
-const groupContainer = document.getElementsById('info-container')
+const groupContainer = document.getElementById('info-container')
 
 //creo una for
-for (let i = 0; i < group.length; i++){
+for (let i = 0; i < group.length; i++) {
     const user = group[i];
     const userElement = document.createElement('div');
     //creo il text
-    userElement.textContent = `name: ${user.name}, role: ${user.rol}, photo  ${user.photo}`; 
-    // !cl contenuto testo
-    console.log(textContent);
+    const userInfo = `name: ${user.name}, role: ${user.rol}, photo  ${user.photo}`; 
+    userElement.textContent = userInfo;
     
+    // !cl contenuto testo
+    
+    groupContainer.appendChild(userElement)
 }
+
