@@ -62,5 +62,8 @@ console.log(group);
 //creo una for
 for (let i = 0; i < group.length; i++){
     const user = group[i];
-    const userElement = document.createElement('div')
+    const userElement = document.createElement('div');
+    //creo il text
+    userElement.textContent = `name: ${user.name}, role: ${user.rol}, photo  ${user.photo}`; 
+    console.log(textContent);
 }
